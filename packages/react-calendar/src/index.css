@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calendar-time-picker {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+}

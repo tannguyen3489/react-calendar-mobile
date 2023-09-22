@@ -1,7 +1,7 @@
 {
-  "name": "react-calendar-monorepo",
+  "name": "react-calendar-mobile",
   "version": "1.0.0",
-  "description": "react-calendar monorepo",
+  "description": "react-calendar for mobile",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -11,6 +11,7 @@
   "scripts": {
     "build": "yarn workspace react-calendar build",
     "dev": "yarn workspace react-calendar watch & yarn workspace test dev",
+    "dev1": "yarn workspace react-calendar watch & yarn workspace test dev",
     "lint": "yarn workspaces foreach run lint",
     "postinstall": "husky install",
     "prettier": "yarn workspaces foreach run prettier",

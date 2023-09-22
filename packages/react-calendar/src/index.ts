@@ -4,6 +4,7 @@ import DecadeView from './DecadeView.js';
 import MonthView from './MonthView.js';
 import Navigation from './Calendar/Navigation.js';
 import YearView from './YearView.js';
+import './index.css';
 
 export type { CalendarProps } from './Calendar.js';
 

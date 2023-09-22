@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from 'react';
-import Calendar from 'react-calendar';
+// @ts-ignore
+import Calendar from '../packages/react-calendar/src/index.ts';
 import 'react-calendar/dist/Calendar.css';
 
 import DateBoundariesOptions from './DateBoundariesOptions.js';
@@ -156,7 +157,7 @@ export default function Test() {
     showNeighboringMonth,
     showWeekNumbers,
     tileClassName,
-    tileContent,
+    // tileContent,
   };
 
   return (

@@ -459,6 +459,7 @@ const Calendar = forwardRef(function Calendar(props: CalendarProps, ref) {
   const onClickTile = useCallback(
     (value: Date, event: React.MouseEvent<HTMLButtonElement>) => {
       const callback = (() => {
+        alert('tan nguyen');
         switch (view) {
           case 'century':
             return onClickDecade;
